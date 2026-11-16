@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495" height="195">
+  <defs>
+    <linearGradient id="cyber-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="50%" stop-color="#0f1620" />
+      <stop offset="100%" stop-color="#0a0e14" />
+    </linearGradient>
+
+    <linearGradient id="cyber-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FF41" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#00FF41" stop-opacity="0.01" />
+    </linearGradient>
+
+    <linearGradient id="header-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+
+    <pattern id="grid-pattern" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#00FF41" stroke-width="0.3" stroke-opacity="0.12" />
+    </pattern>
+
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 1; filter: drop-shadow(0 0 4px #00FF41); }
+      50% { opacity: 0.35; filter: none; }
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes scan {
+      0% { transform: translateY(0); opacity: 0.6; }
+      50% { opacity: 0.2; }
+      100% { transform: translateY(195px); opacity: 0.6; }
+    }
+    .pulse-dot { animation: pulse 2s infinite ease-in-out; }
+    .cursor { animation: blink 0.9s infinite; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace; }
+  </style>
+
+  <!-- Base Box -->
+  <rect x="0.5" y="0.5" width="494" height="194" rx="4.5" fill="url(#cyber-bg)" stroke="#00FF41" stroke-width="1"/>
+  <!-- Cyber Grid Pattern Overlay -->
+  <rect x="1" y="1" width="493" height="193" rx="4" fill="url(#grid-pattern)" />
+  <!-- Radial / Linear Glow Overlay -->
+  <rect x="1" y="1" width="493" height="193" rx="4" fill="url(#cyber-glow)" />
+
+  <!-- Terminal Header Bar -->
+  <rect x="0.5" y="0.5" width="494" height="28" rx="4" fill="url(#header-grad)" />
+  <line x1="0" y1="28.5" x2="495" y2="28.5" stroke="#00FF41" stroke-width="0.8" stroke-opacity="0.4"/>
+
+  <!-- Window Dots -->
+  <circle cx="16" cy="14.5" r="4.5" fill="#ff5f56"/>
+  <circle cx="30" cy="14.5" r="4.5" fill="#ffbd2e"/>
+  <circle cx="44" cy="14.5" r="4.5" fill="#27c93f"/>
+
+  <!-- Header Title -->
+  <text x="247.5" y="18.5" text-anchor="middle" fill="#8b949e" font-size="11" font-weight="600" class="mono">SYSTEM CORE // TELEMETRY HUD</text>
+
+  <!-- Live Badge on Header Right -->
+  <circle cx="454" cy="14.5" r="3" fill="#00FF41" class="pulse-dot" />
+  <text x="463" y="18" fill="#00FF41" font-size="9" font-weight="700" class="mono">LIVE</text>
+
+  <!-- Telemetry Content Lines -->
+  <!-- Line 1: Status & Academia -->
+  <g transform="translate(18, 55)">
+    <circle cx="4" cy="-4" r="3.5" fill="#00FF41" class="pulse-dot" />
+    <text x="16" y="0" fill="#8b949e" font-size="11" class="mono">STATUS   :</text>
+    <text x="96" y="0" fill="#00FF41" font-size="11" font-weight="700" class="mono">ONLINE</text>
+    <text x="156" y="0" fill="#8b949e" font-size="11" class="mono">// AIML CORE @ VVCE MYSURU</text>
+  </g>
+
+  <!-- Line 2: Focus Pipelines -->
+  <g transform="translate(18, 81)">
+    <text x="16" y="0" fill="#8b949e" font-size="11" class="mono">PIPELINE :</text>
+    <text x="96" y="0" fill="#58a6ff" font-size="11" font-weight="600" class="mono">NEURAL CACHE</text>
+    <text x="194" y="0" fill="#8b949e" font-size="11" class="mono">&#8226;</text>
+    <text x="208" y="0" fill="#58a6ff" font-size="11" font-weight="600" class="mono">SATELLITE CV</text>
+    <text x="306" y="0" fill="#8b949e" font-size="11" class="mono">&#8226;</text>
+    <text x="320" y="0" fill="#58a6ff" font-size="11" font-weight="600" class="mono">QUANT</text>
+  </g>
+
+  <!-- Line 3: Threat & Distributed -->
+  <g transform="translate(18, 107)">
+    <text x="16" y="0" fill="#8b949e" font-size="11" class="mono">DEFENSE  :</text>
+    <text x="96" y="0" fill="#39d353" font-size="11" font-weight="600" class="mono">APPSEC HARDENING</text>
+    <text x="235" y="0" fill="#8b949e" font-size="11" class="mono">&#8226;</text>
+    <text x="249" y="0" fill="#39d353" font-size="11" font-weight="600" class="mono">P2P PROTOCOLS</text>
+  </g>
+
+  <!-- Line 4: Philosophy Motto -->
+  <g transform="translate(18, 134)">
+    <line x1="16" y1="-13" x2="455" y2="-13" stroke="#21262d" stroke-width="1" />
+    <text x="16" y="0" fill="#e6edf3" font-size="10.5" font-style="italic" class="mono">&quot;Zero redundant tokens. Physical Joules matter.&quot;</text>
+  </g>
+
+  <!-- Line 5: Interactive Terminal Prompt -->
+  <g transform="translate(18, 166)">
+    <text x="16" y="0" fill="#00FF41" font-weight="700" font-size="11" class="mono">madhu@node:~$</text>
+    <text x="122" y="0" fill="#c9d1d9" font-size="11" class="mono">python3 deploy.py --precision</text>
+    <rect x="338" y="-10" width="7" height="13" fill="#00FF41" class="cursor" />
+  </g>
+</svg>

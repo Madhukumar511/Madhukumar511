@@ -155,20 +155,20 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Madhukumar511/Madhukumar511/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Madhukumar511/Madhukumar511/output/github-contribution-grid-snake.svg" />
-    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Madhukumar511/Madhukumar511/output/github-contribution-grid-snake.svg" width="100%" />
+    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Madhukumar511/Madhukumar511/output/github-contribution-grid-snake-dark.svg" width="100%" />
   </picture>
 </p>
 
-<!-- Matrix Telemetry Deck: Side-by-Side Streak & Terminal Quote -->
+<!-- Matrix Telemetry Deck: Side-by-Side Streak & Custom Cyber HUD -->
 <table width="100%">
   <tr>
-    <td width="52%" align="center" valign="middle">
+    <td width="50%" align="center" valign="middle">
       <a href="https://github.com/Madhukumar511">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Madhukumar511&background=00000000&border=00FF41&stroke=00FF41&ring=00FF41&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&sideLabels=8b949e&currStreakLabel=00FF41&dates=8b949e" width="100%" alt="Streak Stats" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Madhukumar511&background=0d1117&border=00FF41&stroke=00FF41&ring=00FF41&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&sideLabels=8b949e&currStreakLabel=00FF41&dates=8b949e" width="100%" alt="Streak Stats" />
       </a>
     </td>
-    <td width="48%" align="center" valign="middle">
-      <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" width="100%" alt="Tech Quote" />
+    <td width="50%" align="center" valign="middle">
+      <img src="./telemetry.svg" width="100%" alt="Cyber Telemetry HUD" />
     </td>
   </tr>
 </table>
@@ -176,17 +176,13 @@
 <!-- Matrix Activity Frequency Graph -->
 <p align="center">
   <a href="https://github.com/Madhukumar511">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Madhukumar511&bg_color=0d1117&color=00ff41&line=00ff41&point=00ff41&area=true&area_color=00ff41&hide_border=true&radius=8" width="100%" alt="Activity Graph" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Madhukumar511&custom_title=ACTIVITY%20FREQUENCY%20TELEMETRY&bg_color=0d1117&color=00ff41&line=00ff41&point=00ff41&area=true&area_color=00ff41&hide_border=true&radius=8" width="100%" alt="Activity Graph" />
   </a>
 </p>
 
 <!-- 3D Isometric Contribution Grid Display -->
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-green.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
-    <img src="./profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D Isometric Contribution Graph" />
-  </picture>
+  <img src="./profile-3d-contrib/profile-night-green.svg" width="100%" alt="3D Isometric Contribution Graph" />
 </p>
 
 <p align="center">
