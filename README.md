@@ -1,40 +1,40 @@
 <div align="center">
 
-<!-- Compact Animated Cyber Robot Companion -->
-<img src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif" width="130" alt="Cyber Robot" />
-
-# Madhukumar V
-
-<!-- Crisp Terminal Typing Headline -->
-<a href="https://github.com/Madhukumar511">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=2400&pause=1000&color=00F0FF&center=true&vCenter=true&width=680&lines=AIML+Undergrad+%40+VVCE+Mysuru;Exploring+Machine+Learning+%26+Deep+Neural+Nets;Investigating+Cybersecurity+%26+Threat+Defense;Analyzing+Quantitative+Stocks+%26+Crypto+Ecosystems;Building+Fast%2C+Resilient+%26+Intelligent+Software." alt="Typing" />
-</a>
-
-<br />
-
-<!-- Unified Minimalist Dark Badges -->
+<!-- Matrix Digital Rain Animated Header Banner -->
 <p align="center">
-  <a href="mailto:madhukumarv345@gmail.com"><img src="https://img.shields.io/badge/Email-madhukumarv345%40gmail.com-161b22?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email" /></a>
-  <a href="https://linkedin.com/in/madhukumar-v"><img src="https://img.shields.io/badge/LinkedIn-Madhukumar_V-161b22?style=flat-square&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
-  <a href="https://pixel-hut.vercel.app"><img src="https://img.shields.io/badge/Web_Apps-pixel--hut-161b22?style=flat-square&logo=google-chrome&logoColor=00F0FF" alt="Web Apps" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Madhukumar511&label=Views&color=00F0FF&style=flat-square" alt="Views" />
+  <img src="./matrix.svg" width="100%" alt="Matrix Banner" />
+</p>
+
+<!-- Live Animated Green Hacker Terminal Window -->
+<p align="center">
+  <a href="https://github.com/Madhukumar511">
+    <img src="https://github-stats-terminal-style-five.vercel.app/api/stats?username=Madhukumar511&theme=hacker&headerStyle=mac" width="100%" alt="Hacker Terminal" />
+  </a>
+</p>
+
+<!-- Unified Hacker Green Navigation Badges -->
+<p align="center">
+  <a href="mailto:madhukumarv345@gmail.com"><img src="https://img.shields.io/badge/Email-madhukumarv345%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=00FF41&labelColor=000000" alt="Email" /></a>
+  <a href="https://linkedin.com/in/madhukumar-v"><img src="https://img.shields.io/badge/LinkedIn-Madhukumar_V-0d1117?style=flat-square&logo=linkedin&logoColor=00FF41&labelColor=000000" alt="LinkedIn" /></a>
+  <a href="https://pixel-hut.vercel.app"><img src="https://img.shields.io/badge/Web_Apps-pixel--hut-0d1117?style=flat-square&logo=google-chrome&logoColor=00FF41&labelColor=000000" alt="Web Apps" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Madhukumar511&label=Terminal%20Scans&color=00FF41&style=flat-square" alt="Views" />
 </p>
 
 </div>
 
 ---
 
-### ⚡ Profile at a Glance
+### ⚡ System Profile at a Glance
 
-* 🎓 **Branch & College**: **Artificial Intelligence & Machine Learning (AIML)** at **Vidyavardhaka College of Engineering (VVCE)**, Mysuru.
-* 🧠 **Machine Learning**: Researching low-latency semantic caching ([Zerotrace AI](https://github.com/Madhukumar511/ZEROTRACE-AI)) & planetary multispectral satellite vision ([AquaIntel](https://github.com/Madhukumar511/AquaIntel)).
-* 🛡️ **Cybersecurity**: Studying network penetration testing, application security (AppSec), threat mitigation, and cryptography.
-* 📈 **Quant & Crypto**: Developing equity time-series prediction models ([MarketXpert](https://github.com/Madhukumar511/MarketXpert)), algorithmic trading strategies, and exploring Web3/blockchain consensus.
+* 🎓 **Department & College**: **Artificial Intelligence & Machine Learning (AIML)** at **Vidyavardhaka College of Engineering (VVCE)**, Mysuru.
+* 🧠 **Machine Learning**: Researching sub-5ms semantic caching ([Zerotrace AI](https://github.com/Madhukumar511/ZEROTRACE-AI)) & planetary multispectral satellite vision ([AquaIntel](https://github.com/Madhukumar511/AquaIntel)).
+* 🛡️ **Cybersecurity**: Investigating network reconnaissance, application security testing (AppSec), offensive threat modeling, and cryptography.
+* 📈 **Quant & Crypto**: Developing equity time-series predictive models ([MarketXpert](https://github.com/Madhukumar511/MarketXpert)), algorithmic execution strategies, and analyzing Web3/blockchain consensus.
 * 🗣️ **Languages**: English, Kannada (ಕನ್ನಡ), Hindi (हिंदी).
 
 ---
 
-### 🎯 Active Learning Trajectories
+### 🎯 Active Learning & Research Trajectories
 
 <table width="100%">
   <tr>
@@ -45,7 +45,7 @@
     </td>
     <td width="50%" valign="top">
       <h4>🛡️ 02 // Cybersecurity &amp; Defense</h4>
-      <p>Web application security (AppSec), network packet inspection, defensive hardening, and cryptographic ciphers.</p>
+      <p>Web application security (AppSec), network packet inspection, defensive hardening, and cryptographic primitives.</p>
       <code>Network Security</code> &bull; <code>AppSec</code> &bull; <code>Cryptography</code> &bull; <code>Hardening</code>
     </td>
   </tr>
@@ -65,7 +65,7 @@
 
 ---
 
-### 🚀 Selected Projects
+### 🚀 Selected Systems & Prototypes
 
 <table>
   <tr>
@@ -150,7 +150,7 @@
 
 ---
 
-### 📊 Contribution Hunt
+### 📊 Telemetry & Activity Stream
 
 <div align="center">
 
@@ -163,14 +163,21 @@
 
 <br /><br />
 
-<!-- Streak Counter -->
+<!-- Custom Matrix-Green Streak Counter -->
 <a href="https://github.com/Madhukumar511">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Madhukumar511&theme=tokyonight&hide_border=true&border_radius=8" alt="Streak Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Madhukumar511&background=00000000&border=00FF41&stroke=00FF41&ring=00FF41&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&sideLabels=8b949e&currStreakLabel=00FF41&dates=8b949e" alt="Streak Stats" />
 </a>
 
 <br /><br />
 
-<!-- Dynamic Quote -->
+<!-- Matrix-Green Activity Graph -->
+<a href="https://github.com/Madhukumar511">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Madhukumar511&bg_color=0d1117&color=00ff41&line=00ff41&point=00ff41&area=true&area_color=00ff41&hide_border=true&radius=8" width="100%" alt="Activity Graph" />
+</a>
+
+<br /><br />
+
+<!-- Dynamic Tech Quote -->
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Tech Quote" />
 
 </div>
