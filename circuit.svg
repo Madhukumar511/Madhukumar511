@@ -22,7 +22,7 @@
   </defs>
   <style>
     * { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
-    g, rect, circle, path, ellipse, text { will-change: transform, opacity; }
+    .pulse, .led { will-change: stroke-dashoffset, opacity; }
     .base  { fill: none; stroke: #2f6b4f; stroke-opacity: .55; stroke-width: 2.4; stroke-linejoin: round; }
     .pulse { fill: none; stroke-width: 3; stroke-linecap: round; stroke-dasharray: 9 200; stroke-dashoffset: 9;
              animation: run linear infinite; }

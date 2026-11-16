@@ -30,21 +30,17 @@
   </defs>
 
   <style>
+    * { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
     @keyframes pulse {
-      0%, 100% { opacity: 1; filter: drop-shadow(0 0 4px #00FF41); }
-      50% { opacity: 0.35; filter: none; }
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.25; }
     }
     @keyframes blink {
       0%, 49% { opacity: 1; }
       50%, 100% { opacity: 0; }
     }
-    @keyframes scan {
-      0% { transform: translateY(0); opacity: 0.6; }
-      50% { opacity: 0.2; }
-      100% { transform: translateY(195px); opacity: 0.6; }
-    }
-    .pulse-dot { animation: pulse 2s infinite ease-in-out; }
-    .cursor { animation: blink 0.9s infinite; }
+    .pulse-dot { animation: pulse 2.2s infinite ease-in-out; will-change: opacity; }
+    .cursor { animation: blink 0.9s infinite; will-change: opacity; }
     .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace; }
   </style>
 

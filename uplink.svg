@@ -1,149 +1,146 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 200" width="850" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 200" width="850" height="200" role="img" aria-label="System Uplink">
+  <title>SYSTEM UPLINK</title>
   <defs>
     <linearGradient id="cyber-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0d1117" />
-      <stop offset="50%" stop-color="#0a0e14" />
+      <stop offset="50%" stop-color="#090d12" />
       <stop offset="100%" stop-color="#05080c" />
     </linearGradient>
 
     <linearGradient id="eq-grad" x1="0%" y1="100%" x2="0%" y2="0%">
       <stop offset="0%" stop-color="#008F11" />
-      <stop offset="60%" stop-color="#00FF41" />
+      <stop offset="65%" stop-color="#00FF41" />
       <stop offset="100%" stop-color="#79ff97" />
     </linearGradient>
 
-    <pattern id="uplink-grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#00FF41" stroke-width="0.3" stroke-opacity="0.10" />
-    </pattern>
+    <linearGradient id="sweep-wedge-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FF41" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#00FF41" stop-opacity="0.0" />
+    </linearGradient>
 
-    <filter id="radar-glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="2" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
+    <pattern id="uplink-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#00FF41" stroke-width="0.35" stroke-opacity="0.08" />
+    </pattern>
   </defs>
 
   <style>
+    * { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
     @keyframes pulse {
-      0%, 100% { opacity: 1; filter: drop-shadow(0 0 4px #00FF41); }
-      50% { opacity: 0.35; filter: none; }
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
     }
     @keyframes blink {
       0%, 49% { opacity: 1; }
       50%, 100% { opacity: 0; }
     }
-    .pulse-dot { animation: pulse 2s infinite ease-in-out; }
-    .cursor { animation: blink 0.9s infinite; }
+    @keyframes radar-spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    .pulse-dot { animation: pulse 2.2s infinite ease-in-out; will-change: opacity; }
+    .cursor { animation: blink 0.9s infinite; will-change: opacity; }
+    .radar-sweep {
+      transform-origin: 325px 112px;
+      animation: radar-spin 4s linear infinite;
+      will-change: transform;
+    }
     .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace; }
-
+    .eq-bar {
+      transform-box: fill-box;
+      transform-origin: 50% 100%;
+      will-change: transform;
+    }
     @keyframes eq_0 {
-      0%, 100% { height: 15px; y: 143px; }
-      50% { height: 46px; y: 112px; }
+      0%, 100% { transform: scaleY(0.12); }
+      50% { transform: scaleY(0.88); }
     }
-    .bar_0 { animation: eq_0 1.1s infinite ease-in-out; }
-
+    .bar_0 { animation: eq_0 1.15s infinite cubic-bezier(0.4, 0.0, 0.2, 1); }
     @keyframes eq_1 {
-      0%, 100% { height: 12px; y: 146px; }
-      50% { height: 95px; y: 63px; }
+      0%, 100% { transform: scaleY(0.18); }
+      50% { transform: scaleY(0.95); }
     }
-    .bar_1 { animation: eq_1 1.49s infinite ease-in-out; }
-
+    .bar_1 { animation: eq_1 1.42s infinite cubic-bezier(0.4, 0.0, 0.2, 1); }
     @keyframes eq_2 {
-      0%, 100% { height: 15px; y: 143px; }
-      50% { height: 60px; y: 98px; }
+      0%, 100% { transform: scaleY(0.15); }
+      50% { transform: scaleY(0.78); }
     }
-    .bar_2 { animation: eq_2 1.39s infinite ease-in-out; }
-
+    .bar_2 { animation: eq_2 1.28s infinite cubic-bezier(0.4, 0.0, 0.2, 1); }
     @keyframes eq_3 {
-      0%, 100% { height: 15px; y: 143px; }
-      50% { height: 86px; y: 72px; }
+      0%, 100% { transform: scaleY(0.22); }
+      50% { transform: scaleY(0.92); }
     }
-    .bar_3 { animation: eq_3 1.12s infinite ease-in-out; }
-
+    .bar_3 { animation: eq_3 1.65s infinite cubic-bezier(0.4, 0.0, 0.2, 1); }
     @keyframes eq_4 {
-      0%, 100% { height: 14px; y: 144px; }
-      50% { height: 59px; y: 99px; }
+      0%, 100% { transform: scaleY(0.1); }
+      50% { transform: scaleY(0.85); }
     }
-    .bar_4 { animation: eq_4 1.61s infinite ease-in-out; }
-
+    .bar_4 { animation: eq_4 1.1s infinite cubic-bezier(0.4, 0.0, 0.2, 1); }
     @keyframes eq_5 {
-      0%, 100% { height: 15px; y: 143px; }
-      50% { height: 54px; y: 104px; }
+      0%, 100% { transform: scaleY(0.16); }
+      50% { transform: scaleY(0.9); }
     }
-    .bar_5 { animation: eq_5 1.32s infinite ease-in-out; }
-
+    .bar_5 { animation: eq_5 1.35s infinite cubic-bezier(0.4, 0.0, 0.2, 1); }
     @keyframes eq_6 {
-      0%, 100% { height: 13px; y: 145px; }
-      50% { height: 53px; y: 105px; }
+      0%, 100% { transform: scaleY(0.2); }
+      50% { transform: scaleY(0.82); }
     }
-    .bar_6 { animation: eq_6 1.57s infinite ease-in-out; }
-
+    .bar_6 { animation: eq_6 1.52s infinite cubic-bezier(0.4, 0.0, 0.2, 1); }
     @keyframes eq_7 {
-      0%, 100% { height: 10px; y: 148px; }
-      50% { height: 68px; y: 90px; }
+      0%, 100% { transform: scaleY(0.14); }
+      50% { transform: scaleY(0.96); }
     }
-    .bar_7 { animation: eq_7 1.32s infinite ease-in-out; }
-
+    .bar_7 { animation: eq_7 1.2s infinite cubic-bezier(0.4, 0.0, 0.2, 1); }
     @keyframes eq_8 {
-      0%, 100% { height: 12px; y: 146px; }
-      50% { height: 66px; y: 92px; }
+      0%, 100% { transform: scaleY(0.18); }
+      50% { transform: scaleY(0.88); }
     }
-    .bar_8 { animation: eq_8 1.55s infinite ease-in-out; }
-
+    .bar_8 { animation: eq_8 1.45s infinite cubic-bezier(0.4, 0.0, 0.2, 1); }
     @keyframes eq_9 {
-      0%, 100% { height: 13px; y: 145px; }
-      50% { height: 71px; y: 87px; }
+      0%, 100% { transform: scaleY(0.12); }
+      50% { transform: scaleY(0.75); }
     }
-    .bar_9 { animation: eq_9 1.24s infinite ease-in-out; }
-
+    .bar_9 { animation: eq_9 1.18s infinite cubic-bezier(0.4, 0.0, 0.2, 1); }
     @keyframes eq_10 {
-      0%, 100% { height: 9px; y: 149px; }
-      50% { height: 59px; y: 99px; }
+      0%, 100% { transform: scaleY(0.15); }
+      50% { transform: scaleY(0.92); }
     }
-    .bar_10 { animation: eq_10 0.99s infinite ease-in-out; }
-
+    .bar_10 { animation: eq_10 1.38s infinite cubic-bezier(0.4, 0.0, 0.2, 1); }
     @keyframes eq_11 {
-      0%, 100% { height: 14px; y: 144px; }
-      50% { height: 49px; y: 109px; }
+      0%, 100% { transform: scaleY(0.22); }
+      50% { transform: scaleY(0.85); }
     }
-    .bar_11 { animation: eq_11 1.53s infinite ease-in-out; }
-
+    .bar_11 { animation: eq_11 1.6s infinite cubic-bezier(0.4, 0.0, 0.2, 1); }
     @keyframes eq_12 {
-      0%, 100% { height: 12px; y: 146px; }
-      50% { height: 50px; y: 108px; }
+      0%, 100% { transform: scaleY(0.14); }
+      50% { transform: scaleY(0.94); }
     }
-    .bar_12 { animation: eq_12 0.98s infinite ease-in-out; }
-
+    .bar_12 { animation: eq_12 1.22s infinite cubic-bezier(0.4, 0.0, 0.2, 1); }
     @keyframes eq_13 {
-      0%, 100% { height: 18px; y: 140px; }
-      50% { height: 62px; y: 96px; }
+      0%, 100% { transform: scaleY(0.18); }
+      50% { transform: scaleY(0.8); }
     }
-    .bar_13 { animation: eq_13 1.66s infinite ease-in-out; }
-
+    .bar_13 { animation: eq_13 1.48s infinite cubic-bezier(0.4, 0.0, 0.2, 1); }
     @keyframes eq_14 {
-      0%, 100% { height: 10px; y: 148px; }
-      50% { height: 63px; y: 95px; }
+      0%, 100% { transform: scaleY(0.12); }
+      50% { transform: scaleY(0.9); }
     }
-    .bar_14 { animation: eq_14 1.3s infinite ease-in-out; }
-
+    .bar_14 { animation: eq_14 1.3s infinite cubic-bezier(0.4, 0.0, 0.2, 1); }
     @keyframes eq_15 {
-      0%, 100% { height: 17px; y: 141px; }
-      50% { height: 53px; y: 105px; }
+      0%, 100% { transform: scaleY(0.16); }
+      50% { transform: scaleY(0.86); }
     }
-    .bar_15 { animation: eq_15 1.38s infinite ease-in-out; }
+    .bar_15 { animation: eq_15 1.12s infinite cubic-bezier(0.4, 0.0, 0.2, 1); }
   </style>
 
-  <!-- Container Box -->
+  <!-- Chassis Container Box -->
   <rect x="0.5" y="0.5" width="849" height="199" rx="6" fill="url(#cyber-bg)" stroke="#00FF41" stroke-width="1"/>
   <rect x="1" y="1" width="848" height="198" rx="5" fill="url(#uplink-grid)"/>
 
-  <!-- Top Terminal Bar -->
+  <!-- Top Terminal Header Bar -->
   <rect x="0.5" y="0.5" width="849" height="26" rx="5" fill="#161b22"/>
   <line x1="0" y1="26.5" x2="850" y2="26.5" stroke="#00FF41" stroke-width="0.8" stroke-opacity="0.4"/>
 
-  <!-- Window Dots -->
+  <!-- Window Controls -->
   <circle cx="16" cy="13.5" r="4.5" fill="#ff5f56"/>
   <circle cx="30" cy="13.5" r="4.5" fill="#ffbd2e"/>
   <circle cx="44" cy="13.5" r="4.5" fill="#27c93f"/>
@@ -151,95 +148,91 @@
   <!-- Header Title -->
   <text x="425" y="17.5" text-anchor="middle" fill="#8b949e" font-size="11" font-weight="600" class="mono">NEURAL DISPATCH TERMINAL // SYSTEM UPLINK</text>
 
-  <!-- Header Live Indicator -->
-  <circle cx="810" cy="13.5" r="3.5" fill="#00FF41" class="pulse-dot"/>
-  <text x="820" y="17" fill="#00FF41" font-size="9" font-weight="700" class="mono">SYNC</text>
+  <!-- Live Sync Badge -->
+  <circle cx="808" cy="13.5" r="3.5" fill="#00FF41" class="pulse-dot"/>
+  <text x="818" y="17" fill="#00FF41" font-size="9" font-weight="700" class="mono">SYNC</text>
 
-  <!-- ==================== LEFT PANEL: NEURAL SPECTRUM EQUALIZER ==================== -->
+  <!-- ==================== LEFT: NEURAL EQUALIZER SPECTRUM ==================== -->
   <g>
-    <text x="24" y="48" fill="#00FF41" font-size="11" font-weight="700" class="mono">AUDIO / NEURAL SPECTRUM</text>
+    <text x="24" y="48" fill="#00FF41" font-size="11" font-weight="700" class="mono">NEURAL SPECTRUM</text>
     <text x="24" y="60" fill="#8b949e" font-size="9" class="mono">FREQ: 142.8 MHz // LOW-LATENCY BUS</text>
-    <rect x="24" y="142" width="8" height="16" rx="2" fill="url(#eq-grad)" class="bar_0"/>
-    <rect x="36" y="102" width="8" height="56" rx="2" fill="url(#eq-grad)" class="bar_1"/>
-    <rect x="48" y="128" width="8" height="30" rx="2" fill="url(#eq-grad)" class="bar_2"/>
-    <rect x="60" y="138" width="8" height="20" rx="2" fill="url(#eq-grad)" class="bar_3"/>
-    <rect x="72" y="124" width="8" height="34" rx="2" fill="url(#eq-grad)" class="bar_4"/>
-    <rect x="84" y="99" width="8" height="59" rx="2" fill="url(#eq-grad)" class="bar_5"/>
-    <rect x="96" y="102" width="8" height="56" rx="2" fill="url(#eq-grad)" class="bar_6"/>
-    <rect x="108" y="142" width="8" height="16" rx="2" fill="url(#eq-grad)" class="bar_7"/>
-    <rect x="120" y="118" width="8" height="40" rx="2" fill="url(#eq-grad)" class="bar_8"/>
-    <rect x="132" y="101" width="8" height="57" rx="2" fill="url(#eq-grad)" class="bar_9"/>
-    <rect x="144" y="114" width="8" height="44" rx="2" fill="url(#eq-grad)" class="bar_10"/>
-    <rect x="156" y="124" width="8" height="34" rx="2" fill="url(#eq-grad)" class="bar_11"/>
-    <rect x="168" y="138" width="8" height="20" rx="2" fill="url(#eq-grad)" class="bar_12"/>
-    <rect x="180" y="101" width="8" height="57" rx="2" fill="url(#eq-grad)" class="bar_13"/>
-    <rect x="192" y="142" width="8" height="16" rx="2" fill="url(#eq-grad)" class="bar_14"/>
-    <rect x="204" y="112" width="8" height="46" rx="2" fill="url(#eq-grad)" class="bar_15"/>
-    <line x1="24" y1="159" x2="212" y2="159" stroke="#00FF41" stroke-width="1" stroke-opacity="0.5"/>
+    <rect x="24" y="88" width="8" height="72" rx="2" fill="url(#eq-grad)" class="eq-bar bar_0"/>
+    <rect x="36" y="88" width="8" height="72" rx="2" fill="url(#eq-grad)" class="eq-bar bar_1"/>
+    <rect x="48" y="88" width="8" height="72" rx="2" fill="url(#eq-grad)" class="eq-bar bar_2"/>
+    <rect x="60" y="88" width="8" height="72" rx="2" fill="url(#eq-grad)" class="eq-bar bar_3"/>
+    <rect x="72" y="88" width="8" height="72" rx="2" fill="url(#eq-grad)" class="eq-bar bar_4"/>
+    <rect x="84" y="88" width="8" height="72" rx="2" fill="url(#eq-grad)" class="eq-bar bar_5"/>
+    <rect x="96" y="88" width="8" height="72" rx="2" fill="url(#eq-grad)" class="eq-bar bar_6"/>
+    <rect x="108" y="88" width="8" height="72" rx="2" fill="url(#eq-grad)" class="eq-bar bar_7"/>
+    <rect x="120" y="88" width="8" height="72" rx="2" fill="url(#eq-grad)" class="eq-bar bar_8"/>
+    <rect x="132" y="88" width="8" height="72" rx="2" fill="url(#eq-grad)" class="eq-bar bar_9"/>
+    <rect x="144" y="88" width="8" height="72" rx="2" fill="url(#eq-grad)" class="eq-bar bar_10"/>
+    <rect x="156" y="88" width="8" height="72" rx="2" fill="url(#eq-grad)" class="eq-bar bar_11"/>
+    <rect x="168" y="88" width="8" height="72" rx="2" fill="url(#eq-grad)" class="eq-bar bar_12"/>
+    <rect x="180" y="88" width="8" height="72" rx="2" fill="url(#eq-grad)" class="eq-bar bar_13"/>
+    <rect x="192" y="88" width="8" height="72" rx="2" fill="url(#eq-grad)" class="eq-bar bar_14"/>
+    <rect x="204" y="88" width="8" height="72" rx="2" fill="url(#eq-grad)" class="eq-bar bar_15"/>
+    <line x1="24" y1="161" x2="212" y2="161" stroke="#00FF41" stroke-width="1" stroke-opacity="0.5"/>
     <text x="24" y="178" fill="#8b949e" font-size="9" class="mono">0 Hz</text>
     <text x="186" y="178" fill="#8b949e" font-size="9" class="mono">24 kHz</text>
   </g>
 
-  <!-- Dividing Line 1 -->
-  <line x1="230" y1="36" x2="230" y2="185" stroke="#21262d" stroke-width="1"/>
+  <!-- Vertical Divider 1 -->
+  <line x1="228" y1="36" x2="228" y2="185" stroke="#21262d" stroke-width="1"/>
 
-  <!-- ==================== CENTER PANEL: RADAR RECONNAISSANCE SCANNER ==================== -->
-  <g transform="translate(325, 112)">
-    <text x="0" y="-64" text-anchor="middle" fill="#00FF41" font-size="11" font-weight="700" class="mono">RADAR RECON</text>
+  <!-- ==================== CENTER: RADAR RECON SCANNER ==================== -->
+  <g>
+    <text x="325" y="48" text-anchor="middle" fill="#00FF41" font-size="11" font-weight="700" class="mono">RADAR RECON</text>
     
-    <!-- Concentric radar circles -->
-    <circle cx="0" cy="0" r="18" fill="none" stroke="#00FF41" stroke-width="0.8" stroke-opacity="0.25"/>
-    <circle cx="0" cy="0" r="36" fill="none" stroke="#00FF41" stroke-width="0.8" stroke-opacity="0.25"/>
-    <circle cx="0" cy="0" r="54" fill="none" stroke="#00FF41" stroke-width="1" stroke-opacity="0.4"/>
+    <!-- Static Radar Grid -->
+    <circle cx="325" cy="112" r="18" fill="none" stroke="#00FF41" stroke-width="0.8" stroke-opacity="0.2"/>
+    <circle cx="325" cy="112" r="36" fill="none" stroke="#00FF41" stroke-width="0.8" stroke-opacity="0.25"/>
+    <circle cx="325" cy="112" r="54" fill="none" stroke="#00FF41" stroke-width="1" stroke-opacity="0.4"/>
     
-    <!-- Crosshairs -->
-    <line x1="-54" y1="0" x2="54" y2="0" stroke="#00FF41" stroke-width="0.6" stroke-opacity="0.3"/>
-    <line x1="0" y1="-54" x2="0" y2="54" stroke="#00FF41" stroke-width="0.6" stroke-opacity="0.3"/>
+    <line x1="271" y1="112" x2="379" y2="112" stroke="#00FF41" stroke-width="0.6" stroke-opacity="0.3"/>
+    <line x1="325" y1="58" x2="325" y2="166" stroke="#00FF41" stroke-width="0.6" stroke-opacity="0.3"/>
     
-    <!-- Rotating Sweep Beam -->
-    <g>
-      <line x1="0" y1="0" x2="54" y2="0" stroke="#00FF41" stroke-width="1.8" filter="url(#radar-glow)">
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
-      </line>
-    </g>
-
     <!-- Radar Target Blips -->
-    <circle cx="24" cy="-20" r="3" fill="#00FF41">
-      <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="-30" cy="22" r="2.5" fill="#388bfd">
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/>
-    </circle>
+    <circle cx="349" cy="92" r="3" fill="#00FF41" class="pulse-dot"/>
+    <circle cx="295" cy="134" r="2.5" fill="#388bfd" class="pulse-dot" style="animation-delay:-1.1s;"/>
+
+    <!-- Rotating Radar Sweep Beam -->
+    <g class="radar-sweep">
+      <path d="M 325 112 L 379 112 A 54 54 0 0 0 367 76 Z" fill="url(#sweep-wedge-grad)"/>
+      <line x1="325" y1="112" x2="379" y2="112" stroke="#00FF41" stroke-width="2.5" stroke-opacity="0.5"/>
+      <line x1="325" y1="112" x2="379" y2="112" stroke="#eafff1" stroke-width="1"/>
+    </g>
     
-    <text x="0" y="66" text-anchor="middle" fill="#8b949e" font-size="9" class="mono">RANGE: 360&#176; // THREATS: 0</text>
+    <text x="325" y="178" text-anchor="middle" fill="#8b949e" font-size="9" class="mono">RANGE: 360&#176; // THREATS: 0</text>
   </g>
 
-  <!-- Dividing Line 2 -->
-  <line x1="420" y1="36" x2="420" y2="185" stroke="#21262d" stroke-width="1"/>
+  <!-- Vertical Divider 2 -->
+  <line x1="422" y1="36" x2="422" y2="185" stroke="#21262d" stroke-width="1"/>
 
-  <!-- ==================== RIGHT PANEL: TELEMETRY & DISPATCH FEED ==================== -->
-  <g transform="translate(440, 50)">
-    <!-- Line 1: Identity -->
+  <!-- ==================== RIGHT: TELEMETRY & DISPATCH FEED ==================== -->
+  <g transform="translate(442, 50)">
+    <!-- Line 1: Operator -->
     <text x="0" y="10" fill="#8b949e" font-size="11" class="mono">OPERATOR  :</text>
     <text x="96" y="10" fill="#00FF41" font-size="11" font-weight="700" class="mono">MADHUKUMAR V</text>
-    <text x="210" y="10" fill="#8b949e" font-size="10" class="mono">// AIML @ VVCE</text>
+    <text x="212" y="10" fill="#8b949e" font-size="10" class="mono">// AIML @ VVCE</text>
 
-    <!-- Line 2: Focus Trajectories -->
+    <!-- Line 2: Domains -->
     <text x="0" y="36" fill="#8b949e" font-size="11" class="mono">DOMAINS   :</text>
     <text x="96" y="36" fill="#58a6ff" font-size="11" font-weight="600" class="mono">SUB-5MS AI CACHING &#8226; CV &#8226; QUANT</text>
 
-    <!-- Line 3: Security & Consensus -->
+    <!-- Line 3: Security & Cipher -->
     <text x="0" y="62" fill="#8b949e" font-size="11" class="mono">SECURITY  :</text>
     <text x="96" y="62" fill="#39d353" font-size="11" font-weight="600" class="mono">ED25519 CIPHER &#8226; ACTIVE DEFENSE</text>
 
-    <!-- Line 4: Motto Divider -->
+    <!-- Divider Line -->
     <line x1="0" y1="78" x2="385" y2="78" stroke="#21262d" stroke-width="1"/>
 
-    <!-- Line 5: Interactive Terminal Prompt -->
+    <!-- Line 4: Prompt with Blinking Cursor -->
     <text x="0" y="104" fill="#00FF41" font-weight="700" font-size="11" class="mono">guest@uplink:~$</text>
     <text x="120" y="104" fill="#c9d1d9" font-size="11" class="mono">initiate-handshake --open</text>
     <rect x="330" y="93" width="7" height="13" fill="#00FF41" class="cursor"/>
 
+    <!-- Line 5: Motto -->
     <text x="0" y="128" fill="#e6edf3" font-size="10" font-style="italic" class="mono">&quot;Surgical code. Zero redundant energy. Connect below.&quot;</text>
   </g>
 </svg>
