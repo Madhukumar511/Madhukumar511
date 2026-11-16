@@ -16,7 +16,7 @@
 <!-- Unified Hacker Green Navigation Badges -->
 <p align="center">
   <a href="https://github.com/Madhukumar511"><img src="https://img.shields.io/badge/GitHub-Madhukumar511-0d1117?style=flat-square&logo=github&logoColor=00FF41&labelColor=000000" alt="GitHub" /></a>
-  <a href="https://linkedin.com/in/madhukumar-v"><img src="https://img.shields.io/badge/LinkedIn-Madhukumar_V-0d1117?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzAwRkY0MSIgZD0iTTE5IDNhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY1YTIgMiAwIDAgMSAyLTJoMTRtLS41IDE1LjV2LTUuM2EzLjI2IDMuMjYgMCAwIDAtMy4yNi0zLjI2Yy0uODUgMC0xLjg0LjUyLTIuMjggMS4zdi0xLjExaC0yLjc5djguMzdoMi43OXYtNC45M2MwLS43Ny42Mi0xLjQgMS4zOS0xLjRhMS40IDEuNCAwIDAgMSAxLjQgMS40djQuOTNoMi43NU02LjQ2IDEwLjl2OC4zN0g5LjI1VjEwLjlINi40Nk03Ljg2IDYuODhhMS40NSAxLjQ1IDAgMCAwLTEuNDYgMS40NiAxLjQ2IDEuNDYgMCAwIDAgMS40NiAxLjQ2IDEuNDYgMS40NiAwIDAgMCAxLjQ2LTEuNDZBMS40NSAxLjQ1IDAgMCAwIDcuODYgNi44OFoiLz48L3N2Zz4=&labelColor=000000" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/madhukumar-v-a9953832b"><img src="https://img.shields.io/badge/LinkedIn-Madhukumar_V-0d1117?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzAwRkY0MSIgZD0iTTE5IDNhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY1YTIgMiAwIDAgMSAyLTJoMTRtLS41IDE1LjV2LTUuM2EzLjI2IDMuMjYgMCAwIDAtMy4yNi0zLjI2Yy0uODUgMC0xLjg0LjUyLTIuMjggMS4zdi0xLjExaC0yLjc5djguMzdoMi43OXYtNC45M2MwLS43Ny42Mi0xLjQgMS4zOS0xLjRhMS40IDEuNCAwIDAgMSAxLjQgMS40djQuOTNoMi43NU02LjQ2IDEwLjl2OC4zN0g5LjI1VjEwLjlINi40Nk03Ljg2IDYuODhhMS40NSAxLjQ1IDAgMCAwLTEuNDYgMS40NiAxLjQ2IDEuNDYgMCAwIDAgMS40NiAxLjQ2IDEuNDYgMS40NiAwIDAgMCAxLjQ2LTEuNDZBMS40NSAxLjQ1IDAgMCAwIDcuODYgNi44OFoiLz48L3N2Zz4=&labelColor=000000" alt="LinkedIn" /></a>
   <a href="mailto:madhukumarv345@gmail.com"><img src="https://img.shields.io/badge/Email-madhukumarv345%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=00FF41&labelColor=000000" alt="Email" /></a>
   <img src="https://komarev.com/ghpvc/?username=Madhukumar511&label=Terminal%20Scans&color=00FF41&style=flat-square" alt="Views" />
 </p>
@@ -27,13 +27,24 @@
   <img src="./scanline.svg" width="100%" alt="Laser Scanline" />
 </p>
 
-### ⚡ System Profile at a Glance
+### ⚡ About Me // System Profile & Directives
 
-* 🎓 **Department & College**: **Artificial Intelligence & Machine Learning (AIML)** at **Vidyavardhaka College of Engineering (VVCE)**, Mysuru.
-* 🧠 **Machine Learning**: Researching sub-5ms semantic vector caching ([Zerotrace AI](https://github.com/Madhukumar511/ZEROTRACE-AI)) & planetary multispectral satellite vision ([AquaIntel](https://github.com/Madhukumar511/AquaIntel)).
-* 🛡️ **Cybersecurity**: Investigating network reconnaissance, application security (AppSec), offensive threat modeling, and defensive cryptography.
-* 📈 **Quant & Crypto**: Developing equity time-series predictive models ([MarketXpert](https://github.com/Madhukumar511/MarketXpert)), algorithmic trading strategies, and exploring Web3/blockchain consensus.
-* 🗣️ **Languages**: English, Kannada (ಕನ್ನಡ), Hindi (हिंदी).
+```yaml
+Operator       : Madhukumar V
+Academic Node  : Dept. of Artificial Intelligence & Machine Learning (AIML)
+Institution    : Vidyavardhaka College of Engineering (VVCE), Mysuru
+Coordinates    : Mysuru, Karnataka, India [12.3051° N, 76.6551° E]
+Core Focus     : Low-Latency Green AI · Multispectral CV · Defensive AppSec · Quant Systems
+Languages      : English (Fluent) · Kannada / ಕನ್ನಡ (Native) · Hindi / हिंदी (Working)
+Philosophy     : "Zero redundant tokens. Physical Joules matter. Surgical code."
+```
+
+* 🎓 **Academic Base**: B.E. candidate in **Artificial Intelligence & Machine Learning (AIML)** at **Vidyavardhaka College of Engineering (VVCE)**, Mysuru. Specializing in high-performance neural compute, real-time inferencing pipelines, and distributed software systems.
+* ⚡ **Green AI & Low-Latency Optimization**: Researching sub-5ms semantic vector caching ([Zerotrace AI](https://github.com/Madhukumar511/ZEROTRACE-AI)) to deliver zero-watt LLM inference loops. Profiling physical Joules directly at the hardware layer via Intel RAPL & NVIDIA NVML.
+* 🛰️ **Planetary Satellite CV & Remote Sensing**: Building automated marine anomaly detection pipelines ([AquaIntel](https://github.com/Madhukumar511/AquaIntel)) using **ASTER L1T 8-band multispectral imagery** (VNIR + SWIR + TIR) integrated with Google Earth Engine API and FastAPI.
+* 🛡️ **Cybersecurity & Defensive AppSec**: Conducting threat reconnaissance, vulnerability assessments, and defensive hardening across network perimeters, API interfaces, and cryptographic primitives.
+* 📈 **Quant Systems & Predictive Modeling**: Engineering algorithmic market forecasting models ([MarketXpert](https://github.com/Madhukumar511/MarketXpert)) with bidirectional LSTM and ARIMA time-series analysis, while studying decentralized peer-to-peer consensus mechanisms.
+* 🌐 **Surgical Development Philosophy**: Eliminating unnecessary dependencies, favoring native standard libraries, and writing minimal, high-throughput code designed for production environments.
 
 <p align="center">
   <img src="./scanline.svg" width="100%" alt="Laser Scanline" />
@@ -194,7 +205,7 @@
 
 <!-- Interactive Secure Communication Channels -->
 <p align="center">
-  <a href="https://linkedin.com/in/madhukumar-v">
+  <a href="https://www.linkedin.com/in/madhukumar-v-a9953832b">
     <img src="https://img.shields.io/badge/LINKEDIN-SECURE_HANDSHAKE-0d1117?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzAwRkY0MSIgZD0iTTE5IDNhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY1YTIgMiAwIDAgMSAyLTJoMTRtLS41IDE1LjV2LTUuM2EzLjI2IDMuMjYgMCAwIDAtMy4yNi0zLjI2Yy0uODUgMC0xLjg0LjUyLTIuMjggMS4zdi0xLjExaC0yLjc5djguMzdoMi43OXYtNC45M2MwLS43Ny42Mi0xLjQgMS4zOS0xLjRhMS40IDEuNCAwIDAgMSAxLjQgMS40djQuOTNoMi43NU02LjQ2IDEwLjl2OC4zN0g5LjI1VjEwLjlINi40Nk03Ljg2IDYuODhhMS40NSAxLjQ1IDAgMCAwLTEuNDYgMS40NiAxLjQ2IDEuNDYgMCAwIDAgMS40NiAxLjQ2IDEuNDYgMS40NiAwIDAgMCAxLjQ2LTEuNDZBMS40NSAxLjQ1IDAgMCAwIDcuODYgNi44OFoiLz48L3N2Zz4=&labelColor=000000" alt="Connect on LinkedIn" />
   </a>
   &nbsp;&nbsp;
