@@ -29,22 +29,64 @@
 
 ### ⚡ About Me // System Profile & Directives
 
-```yaml
-Operator       : Madhukumar V
-Academic Node  : Dept. of Artificial Intelligence & Machine Learning (AIML)
-Institution    : Vidyavardhaka College of Engineering (VVCE), Mysuru
-Coordinates    : Mysuru, Karnataka, India [12.3051° N, 76.6551° E]
-Core Focus     : Low-Latency Green AI · Multispectral CV · Defensive AppSec · Quant Systems
-Languages      : English (Fluent) · Kannada / ಕನ್ನಡ (Native) · Hindi / हिंदी (Working)
-Philosophy     : "Zero redundant tokens. Physical Joules matter. Surgical code."
-```
+<!-- Animated Cybernetic Operator Dossier Terminal -->
+<p align="center">
+  <img src="./dossier.svg" width="100%" alt="System Dossier Terminal" />
+</p>
 
-* 🎓 **Academic Base**: B.E. candidate in **Artificial Intelligence & Machine Learning (AIML)** at **Vidyavardhaka College of Engineering (VVCE)**, Mysuru. Specializing in high-performance neural compute, real-time inferencing pipelines, and distributed software systems.
-* ⚡ **Green AI & Low-Latency Optimization**: Researching sub-5ms semantic vector caching ([Zerotrace AI](https://github.com/Madhukumar511/ZEROTRACE-AI)) to deliver zero-watt LLM inference loops. Profiling physical Joules directly at the hardware layer via Intel RAPL & NVIDIA NVML.
-* 🛰️ **Planetary Satellite CV & Remote Sensing**: Building automated marine anomaly detection pipelines ([AquaIntel](https://github.com/Madhukumar511/AquaIntel)) using **ASTER L1T 8-band multispectral imagery** (VNIR + SWIR + TIR) integrated with Google Earth Engine API and FastAPI.
-* 🛡️ **Cybersecurity & Defensive AppSec**: Conducting threat reconnaissance, vulnerability assessments, and defensive hardening across network perimeters, API interfaces, and cryptographic primitives.
-* 📈 **Quant Systems & Predictive Modeling**: Engineering algorithmic market forecasting models ([MarketXpert](https://github.com/Madhukumar511/MarketXpert)) with bidirectional LSTM and ARIMA time-series analysis, while studying decentralized peer-to-peer consensus mechanisms.
-* 🌐 **Surgical Development Philosophy**: Eliminating unnecessary dependencies, favoring native standard libraries, and writing minimal, high-throughput code designed for production environments.
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🎓 Academic Base &amp; Institutional Node</h4>
+      <p>
+        <strong>B.E. in Artificial Intelligence &amp; Machine Learning (AIML)</strong><br />
+        <em>Vidyavardhaka College of Engineering (VVCE), Mysuru</em>
+      </p>
+      <p>Specializing in high-performance neural compute, real-time edge inferencing pipelines, and distributed software systems.</p>
+      <p>
+        <code>AIML @ VVCE</code> &bull; <code>Mysuru, India</code> &bull; <code>Undergrad Researcher</code>
+      </p>
+      <p>
+        🗣️ <strong>Languages</strong>: English (Fluent) &bull; Kannada / ಕನ್ನಡ (Native) &bull; Hindi / हिंदी (Working)
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>⚡ Engineering Philosophy &amp; Core Doctrine</h4>
+      <p>
+        <strong><em>"Zero redundant tokens. Physical Joules matter. Surgical code."</em></strong>
+      </p>
+      <p>
+        Relentless elimination of architectural bloat, favoring native standard libraries over heavy dependencies, and measuring real physical energy at the silicon level.
+      </p>
+      <p>
+        <code>Zero-Watt Cache</code> &bull; <code>&lt; 5ms Latency</code> &bull; <code>Hardware Joules</code> &bull; <code>Surgical Code</code>
+      </p>
+      <p>
+        📍 <strong>Coordinates</strong>: <code>12.3051° N, 76.6551° E</code> &bull; Mysuru, Karnataka, India
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🔬 Green AI &amp; Planetary Remote Sensing</h4>
+      <p>
+        ⚡ <a href="https://github.com/Madhukumar511/ZEROTRACE-AI"><strong>Zerotrace AI</strong></a>: High-throughput inference gateway delivering sub-5ms semantic vector caching for zero-watt loops, profiling physical Joules via Intel RAPL &amp; NVIDIA NVML.
+      </p>
+      <p>
+        🛰️ <a href="https://github.com/Madhukumar511/AquaIntel"><strong>AquaIntel</strong></a>: Autonomous marine debris &amp; algal bloom detection utilizing <strong>ASTER L1T 8-band multispectral imagery</strong> via Google Earth Engine API.
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🛡️ Defensive Cyber &amp; Algorithmic Markets</h4>
+      <p>
+        🛡️ <strong>Defensive Cybersecurity &amp; AppSec</strong>: Threat reconnaissance, vulnerability assessments, and defensive hardening across network perimeters, API interfaces, and cryptographic primitives.
+      </p>
+      <p>
+        📈 <a href="https://github.com/Madhukumar511/MarketXpert"><strong>MarketXpert</strong></a>: Algorithmic market forecasting models formulated with bidirectional LSTM networks and ARIMA time-series filtering.
+      </p>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="./scanline.svg" width="100%" alt="Laser Scanline" />
