@@ -207,6 +207,16 @@
   </a>
 </p>
 
+<!-- Live CLI Terminal Card -->
+<div align="center">
+  <sub>⚡ <strong>Execute in your local shell to inspect live terminal credentials &amp; contact nodes:</strong></sub>
+  <br /><br />
+</div>
+
+```bash
+curl -sL https://raw.githubusercontent.com/Madhukumar511/Madhukumar511/main/card.sh | bash
+```
+
 <p align="center">
   <img src="./scanline.svg" width="100%" alt="Laser Scanline" />
 </p>
