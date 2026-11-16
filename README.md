@@ -79,6 +79,11 @@
 
 ### 🚀 Selected Systems & Built Prototypes
 
+<!-- 3D Planetary Satellite AI Reconnaissance & Telemetry HUD -->
+<p align="center">
+  <img src="./satellite-hud.svg" width="100%" alt="Satellite Multispectral AI HUD" />
+</p>
+
 <table>
   <tr>
     <td width="50%" valign="top">
