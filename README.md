@@ -150,49 +150,44 @@
 
 ### 📊 Telemetry & Activity Stream
 
-<div align="center">
+<!-- Animated Contribution Snake -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Madhukumar511/Madhukumar511/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Madhukumar511/Madhukumar511/output/github-contribution-grid-snake.svg" />
+    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Madhukumar511/Madhukumar511/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
+</p>
 
-<!-- Contribution Snake -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Madhukumar511/Madhukumar511/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Madhukumar511/Madhukumar511/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Madhukumar511/Madhukumar511/output/github-contribution-grid-snake.svg" width="100%" />
-</picture>
+<!-- Matrix Telemetry Deck: Side-by-Side Streak & Terminal Quote -->
+<table width="100%">
+  <tr>
+    <td width="52%" align="center" valign="middle">
+      <a href="https://github.com/Madhukumar511">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Madhukumar511&background=00000000&border=00FF41&stroke=00FF41&ring=00FF41&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&sideLabels=8b949e&currStreakLabel=00FF41&dates=8b949e" width="100%" alt="Streak Stats" />
+      </a>
+    </td>
+    <td width="48%" align="center" valign="middle">
+      <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" width="100%" alt="Tech Quote" />
+    </td>
+  </tr>
+</table>
 
-<br /><br />
+<!-- Matrix Activity Frequency Graph -->
+<p align="center">
+  <a href="https://github.com/Madhukumar511">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Madhukumar511&bg_color=0d1117&color=00ff41&line=00ff41&point=00ff41&area=true&area_color=00ff41&hide_border=true&radius=8" width="100%" alt="Activity Graph" />
+  </a>
+</p>
 
-<!-- Custom Matrix-Green Streak Counter -->
-<a href="https://github.com/Madhukumar511">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Madhukumar511&background=00000000&border=00FF41&stroke=00FF41&ring=00FF41&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&sideLabels=8b949e&currStreakLabel=00FF41&dates=8b949e" alt="Streak Stats" />
-</a>
-
-<br /><br />
-
-<!-- Matrix-Green Activity Graph -->
-<a href="https://github.com/Madhukumar511">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Madhukumar511&bg_color=0d1117&color=00ff41&line=00ff41&point=00ff41&area=true&area_color=00ff41&hide_border=true&radius=8" width="100%" alt="Activity Graph" />
-</a>
-
-<br /><br />
-
-<!-- Dynamic Tech Quote -->
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Tech Quote" />
-
-</div>
-
-<br />
-
-<details>
-  <summary><strong>📐 3D Isometric Contribution Grid</strong></summary>
-  <br />
-  <div align="center">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-green.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green.svg" />
-      <img src="./profile-3d-contrib/profile-green.svg" alt="3D Isometric Contribution Graph" width="95%" />
-    </picture>
-  </div>
-</details>
+<!-- 3D Isometric Contribution Grid Display -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-green.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
+    <img src="./profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D Isometric Contribution Graph" />
+  </picture>
+</p>
 
 <p align="center">
   <img src="./scanline.svg" width="100%" alt="Laser Scanline" />
