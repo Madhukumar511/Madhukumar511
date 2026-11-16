@@ -17,53 +17,106 @@
   <a href="https://github.com/Madhukumar511"><img src="https://img.shields.io/badge/GitHub-161B22?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://linkedin.com/in/madhukumar-v"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:madhukumarv345@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://pixel-hut.vercel.app"><img src="https://img.shields.io/badge/Portfolio_/_Apps-00F0FF?style=for-the-badge&logo=google-chrome&logoColor=0D1117" alt="Portfolio" /></a>
+  <a href="https://pixel-hut.vercel.app"><img src="https://img.shields.io/badge/Live_Projects-00F0FF?style=for-the-badge&logo=google-chrome&logoColor=0D1117" alt="Portfolio" /></a>
 </p>
 
-<!-- Live Profile Counter Badges -->
+<!-- Live Profile Counters & Status Badges -->
 <p>
   <img src="https://komarev.com/ghpvc/?username=Madhukumar511&label=Profile%20Views&color=00F0FF&style=flat-square" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/Madhukumar511?label=Followers&style=flat-square&color=00F0FF" alt="GitHub followers" />
-  <img src="https://img.shields.io/badge/Status-Building%20%26%20Shipping-00FF9D?style=flat-square" alt="Status" />
-  <img src="https://img.shields.io/badge/Focus-High%20Performance%20Systems-7928CA?style=flat-square" alt="Focus" />
+  <img src="https://img.shields.io/badge/Status-Shipping%20Systems-00FF9D?style=flat-square" alt="Status" />
+  <img src="https://img.shields.io/badge/Mode-Zero%20Bloat-7928CA?style=flat-square" alt="Mode" />
 </p>
 
 </div>
 
-```text
-┌─[ MK@system-core ]──────────────────────────────────────────────────────────┐
-│ STATUS    : ● SYSTEM ONLINE        LOCATION  : MYSURU, KARNATAKA, INDIA     │
-│ ACADEMIA  : VVCE MYSURU            DEPARTMENT: COMPUTER SCIENCE & ENG       │
-│ SPECIALTY : GREEN AI · HARDWARE TELEMETRY · SATELLITE CV · IOT HARDWARE     │
-│ PHILOSOPHY: ZERO REDUNDANT TOKENS · PHYSICAL ACCURACY · SURGICAL CODE       │
-└─[ engineered with precision ]───────────────────────────────────────────────┘
+---
+
+### ⚡ Developer Specification & Architecture
+
+```python
+from dataclasses import dataclass
+
+@dataclass
+class SystemsEngineer:
+    name: str = "Madhukumar V"
+    origin: str = "Mysuru, Karnataka, India"
+    alma_mater: str = "Vidyavardhaka College of Engineering (VVCE)"
+    department: str = "Computer Science & Engineering"
+    
+    # Core Engineering Verticals
+    specializations: tuple = (
+        "Green AI & Sub-5ms Vector Caching",
+        "Physical Hardware Telemetry (Intel RAPL / NVIDIA NVML)",
+        "Multispectral Planetary Remote Sensing (ASTER L1T / GEE)",
+        "Embedded Strain-Gauge Weight Telemetry (SIH Finalist)",
+        "Native Linux Desktop Ecosystems (Hyprland / C++ Qt Quick)",
+    )
+    
+    # Operating Mantra
+    mantra: str = "Cut synthetic bloat. Measure physical physics. Ship precision code."
+
+    def get_flagship_stack(self) -> dict:
+        return {
+            "inference": ["FastAPI", "PyTorch", "Ollama", "HuggingFace"],
+            "remote_sensing": ["Google Earth Engine", "TensorFlow", "GDAL"],
+            "edge_hardware": ["ESP32", "24-bit HX711 Load Cell", "Three.js 3D Twin"],
+            "systems_desktop": ["C++", "Qt Quick / QML", "Hyprland", "Bash"],
+        }
 ```
 
 ---
 
 ## 👨‍💻 About Me
 
-I am a Computer Science engineer at **Vidyavardhaka College of Engineering (VVCE)** in Mysuru, driven by the challenge of bridging low-level system performance, physical hardware, and production-grade artificial intelligence.
+I am a Computer Science engineer at **Vidyavardhaka College of Engineering (VVCE)** in Mysuru, specializing in the intersection of high-throughput software architectures, physical hardware telemetry, and applied artificial intelligence.
 
-My engineering work focuses on solving real-world friction: cutting unnecessary GPU watts and API tokens before requests reach heavy clusters, mapping marine ecosystems with multispectral satellite telemetry, engineering autonomous retail hardware with strain-gauge load cells, and crafting hyper-responsive, beautiful Linux desktop environments.
+Rather than treating compute as an infinite resource, I focus on engineering systems that eliminate unnecessary overhead: intercepting queries before they hit expensive GPU clusters, extracting ecological insights from satellite constellation bands, verifying retail transactions with real-time physical strain-gauge math, and handcrafting responsive Linux workstation environments.
 
-* ⚡ **Green AI & Zero-Watt Inference**: Designing intelligence gateways like **Zerotrace AI** that intercept LLM queries with 384-dimensional semantic vector caches to return responses in `<5ms` at `0 Joules`, backed by physical telemetry tracking (Intel RAPL & NVIDIA NVML).
-* 🛰️ **Planetary Remote Sensing & Computer Vision**: Analyzing multispectral satellite imagery (ASTER L1T) through Google Earth Engine and deep neural nets to detect ocean debris, turbidity, and environmental patterns at planetary scale.
-* 🛒 **IoT Hardware & Anti-Theft Retail Engines**: Creating smart supermarket systems equipped with 24-bit strain-gauge load cells, real-time dynamic weight tolerance math, Three.js 3D digital twins, and Jetpack Compose mobile experiences (Smart India Hackathon).
-* 🐧 **Linux Craftsmanship & Desktop Ricing**: Developing native C++/Qt Quick hardware telemetry monitors, automated wallpaper palette daemons, and polished Wayland/Hyprland desktop themes for Omarchy Linux.
-* 🗣️ **Languages**: English, Kannada (ಕನ್ನಡ), Hindi (हिंदी).
-* 💡 **Mindset**: Favor surgical code, eliminate bloated dependencies, measure physical energy, and deliver tangible software that performs under load.
+* 🌿 **Green AI & Zero-Watt Inference**: Architecting gateways like **Zerotrace AI** that intercept LLM queries with 384-D semantic vector caching to deliver answers in `<5ms` at `0 Joules`, tracking real energy consumption across Intel RAPL (CPU) and NVIDIA NVML (GPU).
+* 🛰️ **Planetary Remote Sensing**: Processing petabyte-scale multispectral satellite imagery from the **ASTER L1T** constellation via Google Earth Engine to detect marine microplastics, water clarity, and algal bloom dynamics.
+* 🛒 **IoT Hardware & Anti-Theft Verification**: Designing autonomous checkout solutions powered by 24-bit strain-gauge load cells, dynamic noise-filtering tolerance math, Three.js 3D physics digital twins, and Jetpack Compose Android applications (**Smart India Hackathon**).
+* 🐧 **Linux Craftsmanship**: Building custom anime aesthetic scenery rices, dynamic wallpaper palette extraction daemons, and C++/Qt Quick desktop hardware telemetry widgets for Omarchy Linux & Hyprland.
+* 🗣️ **Spoken Languages**: English, Kannada (ಕನ್ನಡ), Hindi (हिंदी).
+* 🎯 **Engineering Principles**: Surgical modifications, real physical measurement, standard library first, zero unearned abstractions.
 
 ---
 
-## 🚀 Featured Flagship Systems
+## 🏛️ Core Engineering Verticals
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>⚡ 01 / GREEN AI &amp; TELEMETRY</h4>
+      <p>Building high-speed inference interceptors, 384-D vector cache layers, token-compression pipelines, and physical power profilers (Joules per token &amp; GPU wattage).</p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🛰️ 02 / PLANETARY REMOTE SENSING</h4>
+      <p>Autonomous marine debris detection, ocean clarity tracking, and multispectral band compositing with ASTER satellite observations and Google Earth Engine.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🛒 03 / HARDWARE &amp; IOT VERIFICATION</h4>
+      <p>Bridging physical strain-gauge sensors (ESP32 / HX711), real-time tolerance math, Three.js suspension digital twins, and mobile ML Kit barcode vision.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🐧 04 / LINUX SYSTEMS &amp; RICING</h4>
+      <p>Developing native Wayland compositor integrations, C++/QML system telemetry widgets, automated color-sync daemons, and aesthetic Hyprland workflows.</p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🚀 Featured Systems & Open-Source Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>⚡ <a href="https://github.com/Madhukumar511/ZEROTRACE-AI">Zerotrace AI</a></h3>
       <p><strong>Real-Time Hardware Telemetry &amp; Green AI Inference Gateway</strong></p>
-      <p>An open-source inference proxy and semantic caching engine for LLMs. Intercepts incoming queries before heavy GPU clusters, applying 384-D semantic vector caching for <strong>&lt;5ms zero-watt responses</strong> and token compression (~65% reduction), while capturing true physical energy (RAPL Joules/token, NVML GPU wattage, and carbon emissions).</p>
+      <p>An open-source inference proxy and semantic caching engine for Large Language Models. Intercepts incoming queries before heavy GPU clusters, applying 384-D semantic vector caching for <strong>&lt;5ms zero-watt responses</strong> and token compression (~65% reduction), while capturing true physical energy (RAPL Joules/token, NVML GPU wattage, and carbon emissions).</p>
       <p>
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
         <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
@@ -196,6 +249,11 @@ My engineering work focuses on solving real-world friction: cutting unnecessary 
 
 <br /><br />
 
+<!-- Dynamic Programming Quote -->
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dynamic Tech Quote" />
+
+<br /><br />
+
 <a href="https://github.com/Madhukumar511?tab=repositories">
   <img src="https://img.shields.io/badge/Explore_All_Repositories-00F0FF?style=for-the-badge&logo=github&logoColor=0D1117" alt="Explore Repositories" />
 </a>
@@ -223,7 +281,7 @@ My engineering work focuses on solving real-world friction: cutting unnecessary 
 
 ---
 
-## 🧭 Current Horizon & Strategic Focus
+## 🧭 Strategic Horizon & Research Focus
 
 | 🔨 What I'm Building | 🔬 What I'm Researching | 🤝 Open For |
 | :--- | :--- | :--- |
