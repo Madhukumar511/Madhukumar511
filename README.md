@@ -14,27 +14,36 @@
 
 <!-- Unified Hacker Green Navigation Badges -->
 <p align="center">
-  <a href="mailto:madhukumarv345@gmail.com"><img src="https://img.shields.io/badge/Email-madhukumarv345%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=00FF41&labelColor=000000" alt="Email" /></a>
+  <a href="https://github.com/Madhukumar511"><img src="https://img.shields.io/badge/GitHub-Madhukumar511-0d1117?style=flat-square&logo=github&logoColor=00FF41&labelColor=000000" alt="GitHub" /></a>
   <a href="https://linkedin.com/in/madhukumar-v"><img src="https://img.shields.io/badge/LinkedIn-Madhukumar_V-0d1117?style=flat-square&logo=linkedin&logoColor=00FF41&labelColor=000000" alt="LinkedIn" /></a>
-  <a href="https://pixel-hut.vercel.app"><img src="https://img.shields.io/badge/Web_Apps-pixel--hut-0d1117?style=flat-square&logo=google-chrome&logoColor=00FF41&labelColor=000000" alt="Web Apps" /></a>
+  <a href="mailto:madhukumarv345@gmail.com"><img src="https://img.shields.io/badge/Email-madhukumarv345%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=00FF41&labelColor=000000" alt="Email" /></a>
   <img src="https://komarev.com/ghpvc/?username=Madhukumar511&label=Terminal%20Scans&color=00FF41&style=flat-square" alt="Views" />
 </p>
 
 </div>
 
----
+<p align="center">
+  <img src="./scanline.svg" width="100%" alt="Laser Scanline" />
+</p>
 
 ### ⚡ System Profile at a Glance
 
 * 🎓 **Department & College**: **Artificial Intelligence & Machine Learning (AIML)** at **Vidyavardhaka College of Engineering (VVCE)**, Mysuru.
-* 🧠 **Machine Learning**: Researching sub-5ms semantic caching ([Zerotrace AI](https://github.com/Madhukumar511/ZEROTRACE-AI)) & planetary multispectral satellite vision ([AquaIntel](https://github.com/Madhukumar511/AquaIntel)).
-* 🛡️ **Cybersecurity**: Investigating network reconnaissance, application security testing (AppSec), offensive threat modeling, and cryptography.
-* 📈 **Quant & Crypto**: Developing equity time-series predictive models ([MarketXpert](https://github.com/Madhukumar511/MarketXpert)), algorithmic execution strategies, and analyzing Web3/blockchain consensus.
+* 🧠 **Machine Learning**: Researching sub-5ms semantic vector caching ([Zerotrace AI](https://github.com/Madhukumar511/ZEROTRACE-AI)) & planetary multispectral satellite vision ([AquaIntel](https://github.com/Madhukumar511/AquaIntel)).
+* 🛡️ **Cybersecurity**: Investigating network reconnaissance, application security (AppSec), offensive threat modeling, and defensive cryptography.
+* 📈 **Quant & Crypto**: Developing equity time-series predictive models ([MarketXpert](https://github.com/Madhukumar511/MarketXpert)), algorithmic trading strategies, and exploring Web3/blockchain consensus.
 * 🗣️ **Languages**: English, Kannada (ಕನ್ನಡ), Hindi (हिंदी).
 
----
+<p align="center">
+  <img src="./scanline.svg" width="100%" alt="Laser Scanline" />
+</p>
 
 ### 🎯 Active Learning & Research Trajectories
+
+<!-- Animated Cybernetic Circuit Board Visual -->
+<p align="center">
+  <img src="./circuit.svg" width="100%" alt="Cyber Circuit Animation" />
+</p>
 
 <table width="100%">
   <tr>
@@ -63,9 +72,11 @@
   </tr>
 </table>
 
----
+<p align="center">
+  <img src="./scanline.svg" width="100%" alt="Laser Scanline" />
+</p>
 
-### 🚀 Selected Systems & Prototypes
+### 🚀 Selected Systems & Built Prototypes
 
 <table>
   <tr>
@@ -112,33 +123,18 @@
       </p>
     </td>
   </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🌐 <a href="https://pixel-hut.vercel.app">Pixel-Hut</a></h3>
-      <p><strong>Modern Cloud Web Platform</strong></p>
-      <p>Creative community showcase application built with TypeScript, React, Next.js, and serverless edge functions.</p>
-      <p>
-        <a href="https://pixel-hut.vercel.app"><img src="https://img.shields.io/badge/Live_App-00D084?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" /></a>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🤖 <a href="https://github.com/Madhukumar511/Agentic-Helper">Agentic-Helper</a></h3>
-      <p><strong>Automated Web Task Orchestrator</strong></p>
-      <p>Intelligent automation pipeline for complex web flows and dynamic DOMs with resilient error-recovery handlers.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-        <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
-        <img src="https://img.shields.io/badge/Automation-DOM-FF6F00?style=flat-square" alt="DOM" />
-      </p>
-    </td>
-  </tr>
 </table>
 
----
+<p align="center">
+  <img src="./scanline.svg" width="100%" alt="Laser Scanline" />
+</p>
 
 ### 🛠️ Tech Arsenal
+
+<!-- Animated 3D Orbiting Tech Universe -->
+<p align="center">
+  <img src="./orbit.svg" width="100%" alt="3D Orbiting Tech Stack" />
+</p>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,c,cpp,rust,kotlin,javascript,typescript&theme=dark" alt="Languages" />
@@ -148,7 +144,9 @@
   <img src="https://skillicons.dev/icons?i=postgres,mongodb,docker,git,github,vscode,postman&theme=dark" alt="Tools" />
 </div>
 
----
+<p align="center">
+  <img src="./scanline.svg" width="100%" alt="Laser Scanline" />
+</p>
 
 ### 📊 Telemetry & Activity Stream
 
@@ -196,7 +194,9 @@
   </div>
 </details>
 
----
+<p align="center">
+  <img src="./scanline.svg" width="100%" alt="Laser Scanline" />
+</p>
 
 <div align="center">
   <sub>⚡ Madhukumar V &bull; AIML @ VVCE Mysuru ⚡</sub>
