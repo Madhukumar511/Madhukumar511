@@ -24,11 +24,11 @@
     </clipPath>
   </defs>
   <style>
-    .rain  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace; fill: url(#trail); animation: fall linear infinite; }
+    .rain  { will-change: transform; transform: translateZ(0); font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace; fill: url(#trail); animation: fall linear infinite; }
     .title { font: 900 64px ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace; letter-spacing: 2px; }
     .main  { fill: #eafff1; }
-    .r     { fill: #ff2a6d; opacity: .75; animation: glitchR 3s steps(1) infinite; }
-    .c     { fill: #05d9e8; opacity: .75; animation: glitchC 3s steps(1) infinite; }
+    .r     { will-change: transform; transform: translateZ(0); fill: #ff2a6d; opacity: .75; animation: glitchR 3s steps(1) infinite; }
+    .c     { will-change: transform; transform: translateZ(0); fill: #05d9e8; opacity: .75; animation: glitchC 3s steps(1) infinite; }
     .cut   { fill: #eafff1; animation: shift 3s steps(1) infinite; }
     .type  { font: 500 22px ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace; fill: #8dffb8; }
     .cursor { fill: #00ff6a; }

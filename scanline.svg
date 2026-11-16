@@ -2,21 +2,31 @@
   <defs>
     <linearGradient id="laserGlow" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00FF41" stop-opacity="0" />
-      <stop offset="25%" stop-color="#00FF41" stop-opacity="0.3" />
-      <stop offset="50%" stop-color="#00FF41" stop-opacity="1" />
-      <stop offset="75%" stop-color="#00FF41" stop-opacity="0.3" />
+      <stop offset="35%" stop-color="#00FF41" stop-opacity="0.35" />
+      <stop offset="50%" stop-color="#eafff1" stop-opacity="1" />
+      <stop offset="65%" stop-color="#00FF41" stop-opacity="0.35" />
       <stop offset="100%" stop-color="#00FF41" stop-opacity="0" />
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+    <filter id="laserBlur" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="1.8" result="blur"/>
       <feMerge>
-        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
   </defs>
-  <rect x="0" y="3" width="900" height="1" fill="#1b2d20" opacity="0.4" />
-  <rect x="-250" y="2" width="250" height="4" rx="2" fill="url(#laserGlow)" filter="url(#glow)">
-    <animate attributeName="x" from="-250" to="900" dur="2.8s" repeatCount="indefinite" />
-  </rect>
+  <style>
+    .track { fill: #00ff41; opacity: 0.12; }
+    .beam { will-change: transform; }
+  </style>
+  <rect x="0" y="3.5" width="900" height="1" class="track" />
+  <g class="beam" filter="url(#laserBlur)">
+    <rect x="-300" y="2" width="300" height="4" rx="2" fill="url(#laserGlow)">
+      <animate attributeName="x" dur="2.4s" repeatCount="indefinite"
+        calcMode="spline"
+        keyTimes="0;0.5;1"
+        values="-300;300;950"
+        keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" />
+    </rect>
+  </g>
 </svg>

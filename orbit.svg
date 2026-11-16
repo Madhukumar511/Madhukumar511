@@ -13,6 +13,8 @@
     <clipPath id="frame"><rect width="900" height="320" rx="18"/></clipPath>
   </defs>
   <style>
+    * { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+    g, rect, circle, path, ellipse, text { will-change: transform, opacity; }
     .star   { fill: #fff; animation: twinkle ease-in-out infinite; }
     .ring   { fill: none; stroke: #8b9cff; stroke-opacity: .28; stroke-width: 1.2; stroke-dasharray: 4 8; animation: flow linear infinite; }
     .tag    { font: 600 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #e6edf3; }
