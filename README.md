@@ -181,108 +181,36 @@
   </a>
 </p>
 
-<!-- 3D Isometric Contribution Grid Display (Collapsible Drawer) -->
-<details>
-  <summary><strong>📐 <code>./view-3d-matrix.sh</code></strong> &nbsp;&bull;&nbsp; <em>Expand Holographic 3D Isometric Git Architecture &amp; Metrics</em></summary>
-  <br />
-  <p align="center">
-    <img src="./profile-3d-contrib/profile-night-green.svg" width="100%" alt="3D Isometric Contribution Graph" />
-  </p>
-</details>
-
 <p align="center">
   <img src="./scanline.svg" width="100%" alt="Laser Scanline" />
 </p>
 
-### 🕹️ Interactive System Console // Command Dispatcher
+### 📡 Neural Dispatch // System Uplink
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2800&pause=1000&color=00FF41&center=true&vCenter=true&width=620&lines=%3E+INITIALIZING+INTERACTIVE+SYSTEM+CONSOLE...;%3E+CLICK+COMMAND+MODULES+BELOW+TO+EXECUTE;%3E+AIML+HARDWARE+TELEMETRY+·+APPSEC+·+QUANT" alt="Interactive CLI" />
-</div>
-
-<br />
-
-<details>
-  <summary><strong>▶ <code>./sys-diagnostics.sh --telemetry</code></strong> &nbsp;&bull;&nbsp; <em>Hardware Energy &amp; Neural Inference Benchmarks</em></summary>
-
-```bash
-[+] CONNECTED TO AIML HARDWARE NODE (VVCE MYSURU)
-┌────────────────────────────────────────────────────────┐
-│ GPU / ACCELERATOR : NVIDIA TENSOR CORE ACTIVE          │
-│ ENERGY PROFILER   : RAPL & NVML TELEMETRY ENGAGED      │
-│ VECTOR CACHE      : 384-DIMENSIONAL EMBEDDINGS         │
-│ INFERENCE LATENCY : < 4.8 ms (78.4% ZERO-WATT HITS)    │
-│ HOST ENVIRONMENT  : LINUX KERNEL 6.12 · OLLAMA · PYTORCH│
-└────────────────────────────────────────────────────────┘
-[*] STATUS: ZERO REDUNDANT TOKENS // PHYSICAL ACCURACY VERIFIED
-```
-</details>
-
-<details>
-  <summary><strong>▶ <code>./sec-audit.sh --defense</code></strong> &nbsp;&bull;&nbsp; <em>Defensive AppSec &amp; Threat Reconnaissance</em></summary>
-
-```bash
-[+] INITIATING DEFENSIVE RECONNAISSANCE SCAN...
-┌────────────────────────────────────────────────────────┐
-│ RECON TARGET      : WEB APPLICATION & P2P PROTOCOLS    │
-│ THREAT MODEL      : STRIDE FRAMEWORK ACTIVE            │
-│ AUDIT SCOPE       : OWASP TOP 10 · PACKET INSPECTION   │
-│ CRYPTO LAYER      : ED25519 · ZERO-KNOWLEDGE PROOFS    │
-│ ACTIVE DEFENSE    : HARDENED · 0 CRITICAL VULNERABILITIES│
-└────────────────────────────────────────────────────────┘
-[*] RESULT: ALL SECURITY POLICIES ENFORCED
-```
-</details>
-
-<details>
-  <summary><strong>▶ <code>./quant-engine.py --backtest</code></strong> &nbsp;&bull;&nbsp; <em>Equity Time-Series &amp; Blockchain Consensus</em></summary>
-
-```bash
-[+] RUNNING TIME-SERIES PREDICTIVE SIMULATION...
-┌────────────────────────────────────────────────────────┐
-│ MODEL ENGINE      : LSTM MULTI-LAYER + ARIMA FORECAST  │
-│ TARGET EQUITIES   : NSE / BSE HIGH-LIQUIDITY EQUITIES  │
-│ SHARPE RATIO      : 2.18 (ANNUALIZED VOLATILITY 14.2%) │
-│ CONSENSUS LAYER   : DISTRIBUTED P2P SMART CONTRACTS    │
-│ PORTFOLIO ALPHA   : OUTPERFORMING BENCHMARK BY +8.4%   │
-└────────────────────────────────────────────────────────┘
-[*] EXECUTION: COMPLETE // CONTINUOUS MODEL TRAINING ACTIVE
-```
-</details>
-
-<details>
-  <summary><strong>▶ <code>./initiate-handshake.sh</code></strong> &nbsp;&bull;&nbsp; <em>Establish Direct Communication Channel</em></summary>
-
-<br />
-
-<div align="center">
-  <p><strong>🚀 Have an exciting AI research, cybersecurity, or quantitative project? Let's connect:</strong></p>
-
-  <p>
-    <a href="https://linkedin.com/in/madhukumar-v">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect-0d1117?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzAwRkY0MSIgZD0iTTE5IDNhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY1YTIgMiAwIDAgMSAyLTJoMTRtLS41IDE1LjV2LTUuM2EzLjI2IDMuMjYgMCAwIDAtMy4yNi0zLjI2Yy0uODUgMC0xLjg0LjUyLTIuMjggMS4zdi0xLjExaC0yLjc5djguMzdoMi43OXYtNC45M2MwLS43Ny42Mi0xLjQgMS4zOS0xLjRhMS40IDEuNCAwIDAgMSAxLjQgMS40djQuOTNoMi43NU02LjQ2IDEwLjl2OC4zN0g5LjI1VjEwLjlINi40Nk03Ljg2IDYuODhhMS40NSAxLjQ1IDAgMCAwLTEuNDYgMS40NiAxLjQ2IDEuNDYgMCAwIDAgMS40NiAxLjQ2IDEuNDYgMS40NiAwIDAgMCAxLjQ2LTEuNDZBMS40NSAxLjQ1IDAgMCAwIDcuODYgNi44OFoiLz48L3N2Zz4=&labelColor=000000" alt="Connect on LinkedIn" />
-    </a>
-    &nbsp;&nbsp;
-    <a href="mailto:madhukumarv345@gmail.com">
-      <img src="https://img.shields.io/badge/Email-Send_Message-0d1117?style=for-the-badge&logo=gmail&logoColor=00FF41&labelColor=000000" alt="Send Email" />
-    </a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/Madhukumar511">
-      <img src="https://img.shields.io/badge/GitHub-Follow_Node-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=000000" alt="Follow on GitHub" />
-    </a>
-  </p>
-</div>
-
-</details>
-
+<!-- Animated Cyberpunk Spectrum & Radar Uplink Terminal -->
 <p align="center">
-  <img src="./scanline.svg" width="100%" alt="Laser Scanline" />
+  <img src="./uplink.svg" width="100%" alt="Neural Dispatch Terminal" />
 </p>
 
-<div align="center">
-  <a href="#top">
-    <img src="https://img.shields.io/badge/▲_RETURN_TO_CORE_TERMINAL-0d1117?style=flat-square&logoColor=00FF41&labelColor=000000" alt="Back to Top" />
+<!-- Interactive Secure Communication Channels -->
+<p align="center">
+  <a href="https://linkedin.com/in/madhukumar-v">
+    <img src="https://img.shields.io/badge/LINKEDIN-SECURE_HANDSHAKE-0d1117?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzAwRkY0MSIgZD0iTTE5IDNhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY1YTIgMiAwIDAgMSAyLTJoMTRtLS41IDE1LjV2LTUuM2EzLjI2IDMuMjYgMCAwIDAtMy4yNi0zLjI2Yy0uODUgMC0xLjg0LjUyLTIuMjggMS4zdi0xLjExaC0yLjc5djguMzdoMi43OXYtNC45M2MwLS43Ny42Mi0xLjQgMS4zOS0xLjRhMS40IDEuNCAwIDAgMSAxLjQgMS40djQuOTNoMi43NU02LjQ2IDEwLjl2OC4zN0g5LjI1VjEwLjlINi40Nk03Ljg2IDYuODhhMS40NSAxLjQ1IDAgMCAwLTEuNDYgMS40NiAxLjQ2IDEuNDYgMCAwIDAgMS40NiAxLjQ2IDEuNDYgMS40NiAwIDAgMCAxLjQ2LTEuNDZBMS40NSAxLjQ1IDAgMCAwIDcuODYgNi44OFoiLz48L3N2Zz4=&labelColor=000000" alt="Connect on LinkedIn" />
   </a>
-  <br /><br />
+  &nbsp;&nbsp;
+  <a href="mailto:madhukumarv345@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL-DIRECT_DISPATCH-0d1117?style=for-the-badge&logo=gmail&logoColor=00FF41&labelColor=000000" alt="Send Email" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Madhukumar511?tab=repositories">
+    <img src="https://img.shields.io/badge/GITHUB-EXPLORE_SYSTEMS-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=000000" alt="Explore Repositories" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="./scanline.svg" width="100%" alt="Laser Scanline" />
+</p>
+
+<div align="center">
   <sub>⚡ Engineered with Surgical Precision &bull; Madhukumar V &bull; AIML @ VVCE Mysuru ⚡</sub>
 </div>
