@@ -33,3 +33,19 @@ jobs:
           git add -A .
           git commit -m "chore: update 3D contribution graph" || exit 0
           git push
+
+      - name: Purge GitHub Camo Cache
+        run: |
+          python3 -c "
+          import urllib.request, re, subprocess
+          try:
+              req = urllib.request.Request('https://github.com/Madhukumar511', headers={'User-Agent': 'Mozilla/5.0'})
+              html = urllib.request.urlopen(req, timeout=15).read().decode('utf-8')
+              camo_urls = set(re.findall(r'https://camo\.githubusercontent\.com/[a-f0-9]+/[a-f0-9]+', html))
+              print(f'Purging {len(camo_urls)} Camo cached URLs...')
+              for u in camo_urls:
+                  subprocess.run(['curl', '-s', '-X', 'PURGE', u], timeout=5)
+              print('Camo cache successfully purged.')
+          except Exception as e:
+              print('Notice: Camo purge error:', e)
+          "
