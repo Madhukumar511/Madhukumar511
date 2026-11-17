@@ -46,43 +46,41 @@
       <p>
         <code>AIML @ VVCE</code> &bull; <code>Mysuru, India</code> &bull; <code>Undergrad Researcher</code>
       </p>
-      <p>
-        🗣️ <strong>Languages</strong>: English (Fluent) &bull; Kannada / ಕನ್ನಡ (Native) &bull; Hindi / हिंदी (Working) &bull; German / Deutsch (Learning) &bull; Japanese / 日本語 (Learning)
-      </p>
     </td>
     <td width="50%" valign="top">
       <h4>⚡ Engineering Philosophy &amp; Core Doctrine</h4>
       <p>
-        <strong><em>"Zero redundant tokens. Physical Joules matter. Surgical code."</em></strong>
+        <strong><em>"Zero redundant tokens. Physical Joules matter. Surgical code."</em></strong><br />
+        <em>High-Throughput Systems Engineering</em>
       </p>
+      <p>Relentless elimination of architectural bloat, favoring native standard libraries over heavy dependencies, and measuring real physical Joules.</p>
       <p>
-        Relentless elimination of architectural bloat, favoring native standard libraries over heavy dependencies, and measuring real physical energy at the silicon level.
+        <code>Zero-Watt Cache</code> &bull; <code>&lt; 5ms Latency</code> &bull; <code>Surgical Code</code>
       </p>
-      <p>
-        <code>Zero-Watt Cache</code> &bull; <code>&lt; 5ms Latency</code> &bull; <code>Hardware Joules</code> &bull; <code>Surgical Code</code>
-      </p>
-      <p>
-        📍 <strong>Coordinates</strong>: <code>12.3051° N, 76.6551° E</code> &bull; Mysuru, Karnataka, India
-      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      🗣️ <strong>Languages</strong>: English <em>(Fluent)</em> &bull; Kannada / ಕನ್ನಡ <em>(Native)</em> &bull; Hindi <em>(Working)</em> &bull; German &amp; Japanese <em>(Learning)</em>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h4>🔬 Green AI &amp; Planetary Remote Sensing</h4>
       <p>
-        ⚡ <a href="https://github.com/Madhukumar511/ZEROTRACE-AI"><strong>Zerotrace AI</strong></a>: High-throughput inference gateway delivering sub-5ms semantic vector caching for zero-watt loops, profiling physical Joules via Intel RAPL &amp; NVIDIA NVML.
+        ⚡ <a href="https://github.com/Madhukumar511/ZEROTRACE-AI"><strong>Zerotrace AI</strong></a>: High-throughput gateway delivering sub-5ms semantic vector caching &amp; physical Joules telemetry (RAPL/NVML).
       </p>
       <p>
-        🛰️ <a href="https://github.com/Madhukumar511/AquaIntel"><strong>AquaIntel</strong></a>: Autonomous marine debris &amp; algal bloom detection utilizing <strong>ASTER L1T 8-band multispectral imagery</strong> via Google Earth Engine API.
+        🛰️ <a href="https://github.com/Madhukumar511/AquaIntel"><strong>AquaIntel</strong></a>: Autonomous marine debris &amp; algal bloom detection utilizing ASTER L1T 8-band multispectral satellite imagery.
       </p>
     </td>
     <td width="50%" valign="top">
       <h4>🛡️ Defensive Cyber &amp; Algorithmic Markets</h4>
       <p>
-        🛡️ <strong>Defensive Cybersecurity &amp; AppSec</strong>: Threat reconnaissance, vulnerability assessments, and defensive hardening across network perimeters, API interfaces, and cryptographic primitives.
+        🛡️ <strong>Defensive Cybersecurity &amp; AppSec</strong>: Threat reconnaissance, vulnerability audits, perimeter hardening, and defensive cryptography.
       </p>
       <p>
-        📈 <a href="https://github.com/Madhukumar511/MarketXpert"><strong>MarketXpert</strong></a>: Algorithmic market forecasting models formulated with bidirectional LSTM networks and ARIMA time-series filtering.
+        📈 <a href="https://github.com/Madhukumar511/MarketXpert"><strong>MarketXpert</strong></a>: Algorithmic equity forecasting models engineered with bidirectional LSTM networks and ARIMA time-series analysis.
       </p>
     </td>
   </tr>
