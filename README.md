@@ -47,7 +47,7 @@
         <code>AIML @ VVCE</code> &bull; <code>Mysuru, India</code> &bull; <code>Undergrad Researcher</code>
       </p>
       <p>
-        🗣️ <strong>Languages</strong>: English (Fluent) &bull; Kannada / ಕನ್ನಡ (Native) &bull; Hindi / हिंदी (Working)
+        🗣️ <strong>Languages</strong>: English (Fluent) &bull; Kannada / ಕನ್ನಡ (Native) &bull; Hindi / हिंदी (Working) &bull; German / Deutsch (Learning) &bull; Japanese / 日本語 (Learning)
       </p>
     </td>
     <td width="50%" valign="top">

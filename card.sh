@@ -27,6 +27,7 @@ printf "${DG}┌─────────────────────�
 printf "${DG}│${R}  ${W}OPERATOR${R}    : ${G}MADHUKUMAR V${R}                                                 ${DG}│${R}\n"
 printf "${DG}│${R}  ${W}ACADEMIA${R}    : ${C}AIML @ Vidyavardhaka College of Engineering (VVCE)${R}           ${DG}│${R}\n"
 printf "${DG}│${R}  ${W}LOCATION${R}    : ${W}Mysuru, Karnataka, India${R}                                     ${DG}│${R}\n"
+printf "${DG}│${R}  ${W}LANGUAGES${R}   : ${W}English · Kannada · Hindi · German & Japanese ${C}(Learning)${R}     ${DG}│${R}\n"
 printf "${DG}│${R}  ${W}SPECIALTIES${R} : ${G}Green AI · Vector Caching · Satellite CV · Defensive AppSec${R}  ${DG}│${R}\n"
 printf "${DG}│${R}  ${W}PHILOSOPHY${R}  : ${Y}\"Zero redundant tokens. Physical Joules matter.\"${R}             ${DG}│${R}\n"
 printf "${DG}├─────────────────────────────────────────────────────────────────────────────┤${R}\n"
